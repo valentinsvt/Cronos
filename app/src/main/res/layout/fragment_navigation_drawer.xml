@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_dark"
+    tools:context="svt.com.cronos.NavigationDrawerFragment">
+
+
+
+    <RelativeLayout
+        android:orientation="horizontal"
+
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@color/primary"
+        android:layout_width="@dimen/nav_drawer_width"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/camus"
+            android:layout_alignParentRight="true"
+            />
+        </RelativeLayout>
+</RelativeLayout>
